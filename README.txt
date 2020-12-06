@@ -158,11 +158,13 @@ pending — состояние ожидания, например, перед с
   <li class="item">Второе</li>
   <li class="item">Третье</li>
 </ul>
+
 Картинка пользователя (юзерпик)
 <div class="user">
   <img class="user__img" src="userpic.png" alt="Дормидонт Петрович">
   <a class="user__link" href="#">Дормидонт Петрович</a>
 </div>
+
 Галерея
 <div class="gallery">
   <ul class="gallery__list">
@@ -174,6 +176,7 @@ pending — состояние ожидания, например, перед с
     </li>
   </ul>
 </div>
+
 Навигация
 <nav class="nav">
   <a class="nav__link nav__link--active">Главная</a>
@@ -198,6 +201,7 @@ pending — состояние ожидания, например, перед с
     </li>
   </ul>
 </nav>
+
 Виджет в боковой колонке
 <div class="widget">
   <h4 class="widget__title">Выращиваем желе</h4>
@@ -210,6 +214,7 @@ pending — состояние ожидания, например, перед с
     <a class="widget__link" href="#">Не читать дальше...</a>
   </div>
 </div>
+
 Блок новостей
 <div class="news">
     <h3 class="news__title">Вчерашние новости</h3>
@@ -237,6 +242,7 @@ pending — состояние ожидания, например, перед с
         </li>
     </ul>
 </div>
+
 Статья или пост в блоге (простой вариант)
 <article class="article">
   <h3 class="article__title">Нащупываем чакры у пучка петрушки</h3>
@@ -259,20 +265,19 @@ pending — состояние ожидания, например, перед с
     одомашненный пучок петрушки, который будет весело бегать за вами
     по пятам и проращивать свои семена в ваших тапках.
   </div>
-</article>
+</article
+>
 Статья или пост в блоге (сложный вариант)
 <article class="entry">
   <header class="entry__header">
     <h3 class="entry__title title-entry">
       <a class="title-entry__link" href="#">Резиновые уточки как способ самопознания</a>
     </h3>
-
     <time class="entry__datetime">32 мая, 10:87</time>
   </header>
 
   <div class="entry__author author-entry">
     <img class="author-entry__img" src="userpic.png" alt="Василиса Сергеевич">
-
     <a class="author-entry__link" href="#">Василиса Сергеевич</a>
   </div>
 
